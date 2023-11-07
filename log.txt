@@ -6154,3 +6154,39 @@ Client Name: SF03LA24TL.shipley.ac.uk
  resolution: 1536 x 864
  time spent on site: 70.412 seconds
 
+Request Method: POST
+Request Params:{"width":"1920","time":"23.172","height":"1080","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Login"}
+User: admin@admin.com
+Cient IP: ::1
+Client Name: PC
+ Client Port: 50928
+ Client Platform: Windows
+ Client Accept Language: en-GB,en;q=0.9,en-US;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 06-11-2023 20:15:15
+
+ resolution: 1920 x 1080
+ time spent on site: 23.172 seconds
+
+Request Method: POST
+Request Params:{"width":"854","time":"43.656","height":"480","auth":"reg","userid":"test@test.com","password":"Testacc1234.","sub":"Register"}
+User: test@test.com
+Cient IP: ::1
+Client Name: PC
+ Client Port: 51153
+ Client Platform: Windows
+ Client Accept Language: en-GB,en;q=0.9,en-US;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 06-11-2023 20:49:33
+
+ resolution: 854 x 480
+ time spent on site: 43.656 seconds
+

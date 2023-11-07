@@ -88,7 +88,7 @@ session_start();
         return null;
     }
     $servername = "localhost";
-    $username = "root";
+    $username = "moham";
     $password = "";
     $dbName = "login_db";
 
