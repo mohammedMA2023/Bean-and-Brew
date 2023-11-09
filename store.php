@@ -74,7 +74,87 @@
                 </div>
             </div>
         </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button onclick="showPopup()">Open Popup</button>
+
+<div id="popup-container" class="popup-container">
+  <div class="popup-content">
+    <div class="dropdown-container">
+      <select class="dropdown-select">
+        <option
+
+value="">Select an Option</option>
+
+        
+<option
+
+value="option1">Option 1</option>
+
+        
+<option
+
+value="option2">Option 2</option>
+
+        
+<option
+
+value="option3">Option 3</option>
+
+      
+</select>
+
+    
+</div>
+
+
+    
+<div
+
+class="calendar-container">
+      <div class="calendar-header">
+        <button class="calendar-prev">Prev</button>
+        <h2 id="calendar-month"></h2>
+        <button class="calendar-next">Next</button>
+      </div>
+        <section class="page-section cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                        <div class="cta-inner bg-faded text-center rounded">
+                            <h2 class="section-heading mb-5">
+                                <span class="section-heading-upper">Don't Wanna Wait?</span>
+                                <span class="section-heading-lower">Pre-Order Coffee/Baked Goods</span>
+                            </h2>
+                            <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                                
+                                <button class="form-control">Pre-Order Coffee</button>
+                                <br>
+                                <br>
+                                <button class="form-control">Pre-Order Ba</button>
+                            
+                                <p class="address mb-5">
+                                <em>
+                                    
+                                    <br>
+                                    
+                                </em>
+                                </p>
+                            <p class="mb-0">
+                                <small><em></em></small>
+                                <br />
+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
         <section class="page-section about-heading">
+    
             <div class="container">
                 <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/about.jpg" alt="..." />
                 <div class="about-heading-content">
@@ -104,5 +184,13 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+    <script>
+        function display(el){
+            document
+
+
+        }
+
+    </script>
     </body>
 </html>

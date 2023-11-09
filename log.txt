@@ -6155,38 +6155,164 @@ Client Name: SF03LA24TL.shipley.ac.uk
  time spent on site: 70.412 seconds
 
 Request Method: POST
-Request Params:{"width":"1920","time":"23.172","height":"1080","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Login"}
-User: admin@admin.com
+Request Params:{"width":"","time":"11.649","height":"","auth":"logout","userid":"","password":""}
+User: 
 Cient IP: ::1
-Client Name: PC
- Client Port: 50928
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 57703
  Client Platform: Windows
- Client Accept Language: en-GB,en;q=0.9,en-US;q=0.8
- Client Script URL: http://localhost/Bean-and-Brew/
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/fansite/home.php
  Server Name: localhost
  Server IP: ::1
  Server Port: 80
- Server Script Name: /Bean-and-Brew/login.php
- Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 06-11-2023 20:15:15
+ Server Script Name: /fansite/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 07-11-2023 13:36:25
 
- resolution: 1920 x 1080
- time spent on site: 23.172 seconds
+ resolution:  x 
+ time spent on site: 11.649 seconds
 
 Request Method: POST
-Request Params:{"width":"854","time":"43.656","height":"480","auth":"reg","userid":"test@test.com","password":"Testacc1234.","sub":"Register"}
-User: test@test.com
+Request Params:{"width":"854","time":"1.908","height":"480","auth":"login","userid":"","password":"","sub":"Login"}
+User: 
 Cient IP: ::1
-Client Name: PC
- Client Port: 51153
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 55009
  Client Platform: Windows
- Client Accept Language: en-GB,en;q=0.9,en-US;q=0.8
- Client Script URL: http://localhost/Bean-and-Brew/
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/fansite/
  Server Name: localhost
  Server IP: ::1
  Server Port: 80
- Server Script Name: /Bean-and-Brew/login.php
- Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 06-11-2023 20:49:33
+ Server Script Name: /fansite/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 07-11-2023 14:47:45
 
  resolution: 854 x 480
- time spent on site: 43.656 seconds
+ time spent on site: 1.908 seconds
+
+Request Method: POST
+Request Params:{"width":"854","time":"2.796","height":"480","auth":"login","userid":"","password":"","sub":"Login"}
+User: 
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 55767
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/fansite/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /fansite/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 07-11-2023 15:00:34
+
+ resolution: 854 x 480
+ time spent on site: 2.796 seconds
+
+Request Method: POST
+Request Params:{"width":"854","time":"7.949","height":"480","auth":"login","userid":"","password":"","sub":"Login"}
+User: 
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 55768
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/fansite/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /fansite/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 07-11-2023 15:00:42
+
+ resolution: 854 x 480
+ time spent on site: 7.949 seconds
+
+Request Method: POST
+Request Params:{"width":"854","time":"4.789","height":"480","auth":"reg","userid":"","password":"","sub":"Register"}
+User: 
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 56209
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/fansite/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /fansite/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 07-11-2023 15:09:06
+
+ resolution: 854 x 480
+ time spent on site: 4.789 seconds
+
+Request Method: POST
+Request Params:{"width":"854","time":"62.95","height":"480","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Login"}
+User: admin@admin.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 56315
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/fansite/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /fansite/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 07-11-2023 15:11:51
+
+ resolution: 854 x 480
+ time spent on site: 62.95 seconds
+
+Request Method: POST
+Request Params:{"width":"","time":"1218.866","height":"","auth":"logout","userid":"","password":""}
+User: 
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 58820
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/fansite/home.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /fansite/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 07-11-2023 15:48:11
+
+ resolution:  x 
+ time spent on site: 1218.866 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"163.872","height":"1080","auth":"reg","userid":"admin2@admin.com","password":"Testacc1234.","sub":"Register"}
+User: admin2@admin.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 58894
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/fansite/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /fansite/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 07-11-2023 15:50:55
+
+ resolution: 1920 x 1080
+ time spent on site: 163.872 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"46.949","height":"1080","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Login"}
+User: admin@admin.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 64079
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/fansite/
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /fansite/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 08-11-2023 10:54:27
+
+ resolution: 1920 x 1080
+ time spent on site: 46.949 seconds
 

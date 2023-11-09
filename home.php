@@ -21,7 +21,7 @@
     
     
     ?>    
-    <section class="page-section clearfix">
+ <section class="page-section clearfix">
             <div class="container">
                 <div class="intro">
                     <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/intro.jpg" alt="..." />
@@ -58,32 +58,14 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <script>
-	
-	var startDate;
+    </body>
 
-function stopTime() {
-  let startTime = startDate.getTime();
-  var dateNow = new Date();
-  var timeNow = dateNow.getTime();
-  var timediff = timeNow - startTime;
-  document.forms["form1"]["time"].value = timediff / 1000;
-  
-}
 
-function start() {
-  startDate = new Date();
-}
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
 
-function getScreen() {
-  if (!startDate) {
-    start();
-  }
-  document.forms['form1']['width'].value = screen.width;
-  document.forms['form1']['height'].value = screen.height;
-}
-
-	</script>
 
     </body>
 </html>

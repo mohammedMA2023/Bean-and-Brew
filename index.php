@@ -19,13 +19,13 @@
 	<form name='form1' id='form1' action="login.php" method="post">
 	<br>
 
-	<input type="hidden" id="width" name="width" value=" 0">
+		<input type="hidden" id="width" name="width" value=" 0">
 		<input type="hidden" id="time" name="time" value=" 0">
 		<input type="hidden" id="height" name="height" value=" 0">
 	    <input type="hidden" id="auth" name="auth" value="login">
 
 		<div class="inputs mb-3" style="text-align:center;margin:5px;width:100%;">
-		<h1>Test Signon - v0.3</h1>
+		<h1>Bean and Brew</h1>
 		<br>
 		Email:   
 		<br>
@@ -33,17 +33,16 @@
 		
 		Password: 
 		<br>
-		<input   type="password" name="password" placeholder="Enter your password"><br>
+		<input type="password" name="password" placeholder="Enter your password"><br>
 		<br>
+<div class="parent">
+<div class="child">
 		<input name="sub" id="sub" type="submit"  class="btn btn-primary btn-block" onclick="stopTime()" value="Login" formaction="login.php"> 
-		<br>
-		<br>
-		
-	</div>
+</div></form></div>
 <br>
-	</form>
-	<button name="changeUi" id="changeUi" type="button"  value="Register" class="btn btn-primary" onclick="changeUi()">Register</button> 
-	
+<div class="child">
+	<button style="width:35%;" name="changeUi" id="changeUi" type="button"  value="Register" class="btn btn-primary" onclick='{if (document.forms["form1"]["auth"].value == "login"){document.forms["form1"]["auth"].value ="reg";document.forms["form1"]["sub"].value ="Register";document.querySelector("#changeUi").innerHTML = "Log in";}else if (document.forms["form1"]["auth"].value == "reg"){document.forms["form1"]["auth"].value ="login";document.forms["form1"]["sub"].value ="Log In";document.querySelector("#changeUi").innerHTML = "Register";}}'>Register</button> 
+</div>
 </div>
 
 	<?php
@@ -74,7 +73,7 @@
 			
 			document.forms["form1"]["auth"].value ="reg";
 			document.forms["form1"]["sub"].value ="Register";
-			document.querySelector('#changeUi').innerHTML = 'Log in';
+			document.querySelector("#changeUi").innerHTML = "Log in";
 
 
 		}
@@ -83,7 +82,7 @@
 			document.forms["form1"]["auth"].value ="login";
 			document.forms["form1"]["sub"].value ="Log In";
 			
-			document.querySelector('#changeUi').innerHTML = 'Register';
+			document.querySelector("#changeUi").innerHTML = "Register";
 
 
 		}
@@ -93,6 +92,8 @@
 
 
 	}
+</script>
+<script>
 	var startDate;
 
 function stopTime() {
