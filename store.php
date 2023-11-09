@@ -1,6 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+    <style>
+    
+
+        #popupContainer {
+            opacity:100%;
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 10%;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            width:30%;
+        }
+
+        #popupContainer.active {
+            display: block;
+
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-item {
+            padding: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown-item:hover {
+            background-color: #ddd;
+        }
+    </style>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -74,52 +124,20 @@
                 </div>
             </div>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <button onclick="showPopup()">Open Popup</button>
-
-<div id="popup-container" class="popup-container">
-  <div class="popup-content">
-    <div class="dropdown-container">
-      <select class="dropdown-select">
-        <option
-
-value="">Select an Option</option>
-
-        
-<option
-
-value="option1">Option 1</option>
-
-        
-<option
-
-value="option2">Option 2</option>
-
-        
-<option
-
-value="option3">Option 3</option>
-
-      
-</select>
-
-    
+        <div id="popupContainer">
+        <h1>Hello</h1>
+    <div class="dropdown">
+        <span class="dropdown-item">Select an option</span>
+        <div class="dropdown-content">
+            <div class="dropdown-item">Option 1</div>
+            <div class="dropdown-item">Option 2</div>
+            <div class="dropdown-item">Option 3</div>
+        </div>
+    </div>
 </div>
 
 
-    
-<div
 
-class="calendar-container">
-      <div class="calendar-header">
-        <button class="calendar-prev">Prev</button>
-        <h2 id="calendar-month"></h2>
-        <button class="calendar-next">Next</button>
-      </div>
         <section class="page-section cta">
             <div class="container">
                 <div class="row">
@@ -131,7 +149,7 @@ class="calendar-container">
                             </h2>
                             <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                                 
-                                <button class="form-control">Pre-Order Coffee</button>
+                                <button onclick="display('popupContainer')" class="form-control">Pre-Order Coffee</button>
                                 <br>
                                 <br>
                                 <button class="form-control">Pre-Order Ba</button>
@@ -186,7 +204,7 @@ class="calendar-container">
         <script src="js/scripts.js"></script>
     <script>
         function display(el){
-            document
+            document.getElementById(el).style.display = "block";
 
 
         }
