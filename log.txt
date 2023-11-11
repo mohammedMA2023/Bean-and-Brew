@@ -592,3 +592,75 @@ Client Name: PC
  resolution: 1920 x 1080
  time spent on site: 16.495 seconds
 
+Request Method: POST
+Request Params:{"width":"1024","time":"81.366","height":"1366","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Login"}
+User: admin@admin.com
+Cient IP: 192.168.0.172
+Client Name: 192.168.0.172
+ Client Port: 53774
+ Client Platform: MacOS
+ Client Accept Language: en-US,en;q=0.9
+ Client Script URL: http://192.168.0.203/Bean-and-Brew/
+ Server Name: 192.168.0.203
+ Server IP: 192.168.0.203
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 09-11-2023 21:56:49
+
+ resolution: 1024 x 1366
+ time spent on site: 81.366 seconds
+
+Request Method: POST
+Request Params:{"width":"1024","time":"9.924","height":"1366","auth":"logout","userid":"","password":""}
+User: 
+Cient IP: 192.168.0.172
+Client Name: 192.168.0.172
+ Client Port: 53784
+ Client Platform: MacOS
+ Client Accept Language: en-US,en;q=0.9
+ Client Script URL: http://192.168.0.203/Bean-and-Brew/store.php
+ Server Name: 192.168.0.203
+ Server IP: 192.168.0.203
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 09-11-2023 21:58:48
+
+ resolution: 1024 x 1366
+ time spent on site: 9.924 seconds
+
+Request Method: POST
+Request Params:{"width":"1024","time":"12.024","height":"1366","auth":"logout","userid":"","password":""}
+User: 
+Cient IP: 192.168.0.172
+Client Name: 192.168.0.172
+ Client Port: 53785
+ Client Platform: MacOS
+ Client Accept Language: en-US,en;q=0.9
+ Client Script URL: http://192.168.0.203/Bean-and-Brew/store.php
+ Server Name: 192.168.0.203
+ Server IP: 192.168.0.203
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 09-11-2023 21:58:53
+
+ resolution: 1024 x 1366
+ time spent on site: 12.024 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"15.079","height":"1080","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Login"}
+User: admin@admin.com
+Cient IP: ::1
+Client Name: PC
+ Client Port: 52643
+ Client Platform: Windows
+ Client Accept Language: en-GB,en;q=0.9,en-US;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 10-11-2023 22:01:31
+
+ resolution: 1920 x 1080
+ time spent on site: 15.079 seconds
+
