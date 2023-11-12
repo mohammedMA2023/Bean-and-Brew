@@ -2,8 +2,43 @@
 <html lang="en">
     <head>
     <style>
-    
+     .dropdown {
+      position: relative;
+      display: inline-block;
+    }
 
+    .dropdown-button {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 150px; /* Set the desired width */
+    }
+
+    .dropdown-content {
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+      width: 100%; /* Match the width of the button */
+    }
+
+    .dropdown-content a {
+      color: #333;
+      padding: 12px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f0f0f0;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
         #popupContainer {
             opacity:100%;
             display: none;
@@ -124,16 +159,27 @@
                 </div>
             </div>
         </section>
-        <div id="popupContainer">
-        <h1>Hello</h1>
+        <div id="popupContainer" class="container border">
+        <h1>Pre-Order Coffee</h1>
     <div class="dropdown">
-        <span class="dropdown-item">Select an option</span>
         <div class="dropdown-content">
-            <div class="dropdown-item">Option 1</div>
-            <div class="dropdown-item">Option 2</div>
-            <div class="dropdown-item">Option 3</div>
+            
+            <label for="myDropdown">Coffee</label>
+  <select id="myDropdown" name="myDropdown">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+     </select>
+    <label for="datepicker">Date:</label>
+  <input type="date" id="datepicker" name="datepicker">
+   <label for="timepicker">Time:</label>
+  <input type="time" id="timepicker" name="timepicker">
+
+
+
         </div>
     </div>
+    <button onclick="hide('popupContainer')">Okay</button>
 </div>
 
 
@@ -203,12 +249,34 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     <script>
-        function display(el){
-            document.getElementById(el).style.display = "block";
+    function validateTime() {
+  var selectedTime = document.getElementById('timepicker').value;
+  var parts = selectedTime.split(':');
+  var hours = parseInt(parts[0]);
+  var minutes = parseInt(parts[1]);
 
+  // Restrict to 9 am to 5:30 pm
+  if (hours < 9 || (hours === 17 && minutes > 30) || hours > 17) {
+    alert('Please select a time between 9:00 am and 5:30 pm.');
+    document.getElementById('timepicker').value = ''; // Clear the input
+    return false;
+  } else {
+    return true;
+  }
+}
 
-        }
+function display(el) {
+  document.getElementById(el).style.display = "block";
+}
 
+function hide(el) {
+  let validTime = validateTime();
+  if (validTime) {
+    document.getElementById(el).style.display = "none";
+  } else {
+    alert('Please select a time between 9:00 am and 5:30 pm.');
+  }
+}
     </script>
     </body>
 </html>
