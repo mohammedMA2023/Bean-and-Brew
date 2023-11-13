@@ -48,7 +48,7 @@
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.php">Store</a></li>
                         <?php 
                           if ($_SESSION["status"] == "loggedIn"){
-                            echo '<li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.php">Pre-Order Products</a></li>'; 
+                            echo '<li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="ratecake.php">Rate My Cake</a></li>'; 
                           }
                         
                         ?>

@@ -23,7 +23,7 @@
 		<input type="hidden" id="time" name="time" value=" 0">
 		<input type="hidden" id="height" name="height" value=" 0">
 	    <input type="hidden" id="auth" name="auth" value="login">
-
+	
 		<div class="inputs mb-3" style="text-align:center;margin:5px;width:100%;">
 		<h1>Bean and Brew</h1>
 		<br>
