@@ -167,7 +167,7 @@ session_start();
             if ($result->num_rows > 0){
             // Email already exists, handle this case as needed
             $_SESSION['error'] = "Error: this email is already registered. Please try again.";
-                header("location:register.php");
+                header("location:index.php");
                 $conn->close();
                 exit();
         } else {

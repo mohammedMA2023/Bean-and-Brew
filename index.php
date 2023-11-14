@@ -32,16 +32,29 @@
 		<input type="email" name="userid" placeholder="Enter your email..."><br>
 		
 		Password: 
+			
 		<br>
 		<input type="password" name="password" placeholder="Enter your password"><br>
+		<br>
+		<ul id="req" style="display:none;">
+		<p>Your Password must:
+		<li>Be a minimum of 8 characters.</li>
+		<li>Contain one uppercase letter.</li>
+		<li>Contain one lowercase character.</li>
+		<li>Contain one special character (.&@).</li>
+		<li>One number.</li>
+		</ul>
 		<br>
 <div class="parent">
 <div class="child">
 		<input name="sub" id="sub" type="submit"  class="btn btn-primary btn-block" onclick="stopTime()" value="Login" formaction="login.php"> 
-</div></form></div>
+		<br>
+		
+	
+	</div></form></div>
 <br>
 <div class="child">
-	<button style="width:35%;" name="changeUi" id="changeUi" type="button"  value="Register" class="btn btn-primary" onclick='{if (document.forms["form1"]["auth"].value == "login"){document.forms["form1"]["auth"].value ="reg";document.forms["form1"]["sub"].value ="Register";document.querySelector("#changeUi").innerHTML = "Log in";}else if (document.forms["form1"]["auth"].value == "reg"){document.forms["form1"]["auth"].value ="login";document.forms["form1"]["sub"].value ="Log In";document.querySelector("#changeUi").innerHTML = "Register";}}'>Register</button> 
+	<button style="width:35%;" name="changeUi" id="changeUi" type="button"  value="Register" class="btn btn-primary" onclick='{if (document.forms["form1"]["auth"].value == "login"){document.forms["form1"]["auth"].value ="reg";document.forms["form1"]["sub"].value ="Register";document.querySelector("#changeUi").innerHTML = "Log in";document.getElementById("req").style.display="block";}else if (document.forms["form1"]["auth"].value == "reg"){document.forms["form1"]["auth"].value ="login";document.forms["form1"]["sub"].value ="Log In";document.querySelector("#changeUi").innerHTML = "Register";document.getElementById("req").style.display="none";}}'>Register</button> 
 </div>
 </div>
 
@@ -74,7 +87,7 @@
 			document.forms["form1"]["auth"].value ="reg";
 			document.forms["form1"]["sub"].value ="Register";
 			document.querySelector("#changeUi").innerHTML = "Log in";
-
+			document.getElementById("req").style.display = "block";
 
 		}
 		else if (document.forms["form1"]["auth"].value == "reg"){
@@ -83,7 +96,7 @@
 			document.forms["form1"]["sub"].value ="Log In";
 			
 			document.querySelector("#changeUi").innerHTML = "Register";
-
+			document.getElementById("req").style.display = "none";
 
 		}
 		

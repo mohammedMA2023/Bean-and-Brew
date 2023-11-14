@@ -126,28 +126,6 @@
     
     ?>    
 
-<div id="popupContainer" class="container border">
-  <h1>Pre-Order Coffee</h1>
-
-  <div class="dropdown">
-    <div class="dropdown-content">
-      <label for="myDropdown">Coffee</label>
-      <select id="myDropdown" name="myDropdown">
-        <option value="option1">Option 1</option>
-        <option value="option2">Option 2</option>
-        <option value="option3">Option 3</option>
-      </select>
-
-      <label for="datepicker">Date:</label>
-      <input type="date" id="datepicker" name="datepicker">
-
-      <label for="timepicker">Time:</label>
-      <input type="time" id="timepicker" name="timepicker">
-
-      <button onclick="hide('popupContainer')">Okay</button>
-    </div>
-  </div>
-</div>
 
 <section class="page-section cta">
             <div class="container">
@@ -156,41 +134,37 @@
                         <div class="cta-inner bg-faded text-center rounded">
                             <h2 class="section-heading mb-5">
                                 <span class="section-heading-upper">Don't Wanna Wait?</span>
-                                <span class="section-heading-lower">Pre-Order Coffee/Baked Goods</span>
+                                <span class="section-heading-lower">Rate My Cake</span>
                             </h2>
-                            <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                                
-                                <button onclick="display('popupContainer')" class="form-control">Pre-Order Coffee</button>
-                                <br>
-                                <br>
-                                <button class="form-control">Pre-Order Baked Goods</button>
-                            
-                                <p class="address mb-5">
-                                <em>
-                                    
-                                    <br>
-                                    
-                                </em>
-                                </p>
-                            <p class="mb-0">
-                                <small><em></em></small>
-                                <br />
-</p>
+    
+<div style="display: inline-block; text-align: center;">
 <form action="login.php" method="post" enctype="multipart/form-data">
-  <input type="file" name="image" />
+<img id="blah" class="img-thumbnail rounded" style="background-color: #d2984f; max-width: 100%;" src="#" hidden>
+  <br>
+  <br>
+<input style="width:100%;" id="userImg" type="file" name="image" />
+  <br>
+  
+  <br>
   <input type="hidden" name="auth" value="upload"/> 
   <textarea name="review" rows="10" cols="50" placeholder="Enter the review..." required maxlength="255"></textarea>
+  <br>
+  <br>
   <textarea name="caption" rows="10" cols="50" placeholder="Enter your caption..." required maxlength="255"></textarea>
-
-  <input type="submit" value="Upload" />
+  <br>
+  <br>
+  <input style="width:100%;" type="submit" value="Upload" />
   <input type="hidden" id="width" name="width" value=" 0">
 		<input type="hidden" id="time" name="time" value=" 0">
 		<input type="hidden" id="height" name="height" value=" 0">
 	  <input type="hidden" name="userid" placeholder="Enter your email..."><br>
 		
     <input type="hidden" name="password" placeholder="Enter your password"><br>
+<!-- This is the Image preview window -->
+
 
 </form>
+</div>
 <?php  
   if ((isset($_SESSION["error"])) && ($_SESSION["error"])){
     echo $_SESSION["error"];
@@ -208,6 +182,60 @@
                 </div>
             </div>
         </section>
+        <?php
+         $servername = "localhost";
+         $username = "root";
+         $password = "";
+         $dbName = "login_db";
+     
+         // Create connection
+         $conn = new mysqli($servername, $username, $password, $dbName);
+         if ($conn->connect_error) {;
+                 die();
+         }
+         $stmt = $conn->prepare("SELECT * FROM reviews ORDER BY review_id DESC");
+         
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while ($row = $result->fetch_assoc()) {
+            $file = $row["img"];
+            $file = "assets/uploads/".$file;
+            $review = $row["review"];
+            $likes = $row["likes"];
+            $captions = $row["captions"];
+            
+            echo "
+            <section class='page-section cta'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-xl-9 mx-auto'>
+                            <div class='cta-inner bg-faded text-center rounded'>
+                                <div style='display: inline-block; text-align: center;'>
+                                    <img class='img-thumbnail rounded' style='background-color: #d2984f; max-width: 100%; height:100%;' src='" . $file . "'>
+                                    <h1>" . $captions . "</h1>
+                                    <h3>" . $review . "</h3>
+                                    <p>" . $likes . " Likes" . "</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            ";
+          
+                 
+        }
+    } else {
+        $status = "loggedOut";
+        $_SESSION['error'] = "Error: these details are incorrect. Please try again.";
+        $_SESSION["status"] = $status;
+        header("location:index.php");
+		$conn->close();
+    }
+        ?>
     
         <footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2023</p></div>
@@ -217,6 +245,14 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     <script>
+             userImg.onchange = evt => {
+                            const [file] = userImg.files
+                            if (file) {
+                                blah.src = URL.createObjectURL(file)
+                                blah.hidden = false
+                            }
+                            }
+
     function validateTime() {
   var selectedTime = document.getElementById('timepicker').value;
   var parts = selectedTime.split(':');
@@ -233,21 +269,7 @@
   }
 }
 
-function display(el) {
-   
-  document.getElementById(el).style.display = "block";
-  document.body.style.overflow = "hidden";
 
-}
-
-function hide(el) {
-  let validTime = validateTime();
-  if (validTime) {
-    document.getElementById(el).style.display = "none";
-  } else {
-    alert('Please select a time between 9:00 am and 5:30 pm.');
-  }
-}
     </script>
     </body>
 </html>

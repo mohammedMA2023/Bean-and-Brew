@@ -1,12 +1,12 @@
 <?php
 		session_start();
-		if (isset($_SESSION["status"])){
-      if ($_SESSION["status"] != "loggedIn"){
+		if ((isset($_SESSION["status"])) && ($_SESSION["status"] != "loggedIn")){
+      
 			header("location:index.php");
 			exit();
         
       
-    }
+    
   }
 
 
@@ -47,7 +47,7 @@
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.php">Products</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.php">Store</a></li>
                         <?php 
-                          if ($_SESSION["status"] == "loggedIn"){
+                          if ((isset($_SESSION["status"])) && ($_SESSION["status"] == "loggedIn")){
                             echo '<li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="ratecake.php">Rate My Cake</a></li>'; 
                           }
                         

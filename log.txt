@@ -1798,3 +1798,759 @@ Client Name: SF06PC04U.shipley.ac.uk
  resolution:  0 x  0
  time spent on site:  0 seconds
 
+Request Method: POST
+Request Params:{"width":"1920","time":"17.93","height":"1080","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Login"}
+User: admin@admin.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 61547
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 09:46:21
+
+ resolution: 1920 x 1080
+ time spent on site: 17.93 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"mmm cake","caption":"yummy yum yum","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.126
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 59617
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 11:12:06
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"width":"1536","time":"3.886","height":"864","auth":"login","userid":"125843@Shipley.ac.uk","password":"@%Password2019","sub":"Login"}
+User: 125843@Shipley.ac.uk
+Cient IP: 10.201.205.126
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 59676
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/index.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 11:13:27
+
+ resolution: 1536 x 864
+ time spent on site: 3.886 seconds
+
+Request Method: POST
+Request Params:{"width":"","time":"12.741","height":"","auth":"logout","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.126
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 59678
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/home.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 11:13:41
+
+ resolution:  x 
+ time spent on site: 12.741 seconds
+
+Request Method: POST
+Request Params:{"width":"1536","time":"6.769","height":"864","auth":"login","userid":"125843@Shipley.ac.uk","password":"@%Password2019","sub":"Login"}
+User: 125843@Shipley.ac.uk
+Cient IP: 10.201.205.126
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 59684
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/index.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 11:13:56
+
+ resolution: 1536 x 864
+ time spent on site: 6.769 seconds
+
+Request Method: POST
+Request Params:{"width":"","time":"826.626","height":"","auth":"logout","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.126
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 58977
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/home.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 11:28:54
+
+ resolution:  x 
+ time spent on site: 826.626 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"19.783","height":"1080","auth":"logout","userid":"","password":""}
+User: 
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 53414
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/ratecake.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 11:36:19
+
+ resolution: 1920 x 1080
+ time spent on site: 19.783 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"23.549","height":"1080","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Log In"}
+User: admin@admin.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 60681
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 11:36:43
+
+ resolution: 1920 x 1080
+ time spent on site: 23.549 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"Image","caption":"Image.","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 50363
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/ratecake.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:03:39
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"16.619","height":"1080","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Login"}
+User: admin@admin.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 50444
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:05:08
+
+ resolution: 1920 x 1080
+ time spent on site: 16.619 seconds
+
+Request Method: POST
+Request Params:{"width":"1536","time":"55.22","height":"864","auth":"login","userid":"jim@gotmail.com","password":"Sp1ralite2023!","sub":"Log In"}
+User: jim@gotmail.com
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 57338
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:13:46
+
+ resolution: 1536 x 864
+ time spent on site: 55.22 seconds
+
+Request Method: POST
+Request Params:{"width":"1536","time":"4.758","height":"864","auth":"login","userid":"","password":"","sub":"Login"}
+User: 
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 57338
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/index.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:13:51
+
+ resolution: 1536 x 864
+ time spent on site: 4.758 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"20.884","height":"1080","auth":"logout","userid":"","password":""}
+User: 
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 50686
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/ratecake.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:14:09
+
+ resolution: 1920 x 1080
+ time spent on site: 20.884 seconds
+
+Request Method: POST
+Request Params:{"width":"1536","time":"30.555","height":"864","auth":"reg","userid":"jim@gotmail.com","password":"Jiminy125","sub":"Register"}
+User: jim@gotmail.com
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 57348
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/index.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:14:22
+
+ resolution: 1536 x 864
+ time spent on site: 30.555 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"15.732","height":"1080","auth":"reg","userid":"test@test.com","password":"Testacc1234.","sub":"Register"}
+User: test@test.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 50705
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:14:25
+
+ resolution: 1920 x 1080
+ time spent on site: 15.732 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"66.087","height":"1080","auth":"reg","userid":"test@test.com","password":"Testacc1234.","sub":"Register"}
+User: test@test.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 50853
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:19:58
+
+ resolution: 1920 x 1080
+ time spent on site: 66.087 seconds
+
+Request Method: POST
+Request Params:{"width":"1536","time":"12.877","height":"864","auth":"reg","userid":"jim@gotmail.com","password":"J1miny125!","sub":"Register"}
+User: jim@gotmail.com
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 57420
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/index.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:25:20
+
+ resolution: 1536 x 864
+ time spent on site: 12.877 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"cake. ","caption":"Anti Gravity Cake","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 57438
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:26:49
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"30.896","height":"1080","auth":"reg","userid":"","password":"","sub":"Register"}
+User: 
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 61025
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:34:33
+
+ resolution: 1920 x 1080
+ time spent on site: 30.896 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"1.222","height":"1080","auth":"login","userid":"","password":"","sub":"Login"}
+User: 
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 61025
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:34:34
+
+ resolution: 1920 x 1080
+ time spent on site: 1.222 seconds
+
+Request Method: POST
+Request Params:{"width":"","time":"2.329","height":"","auth":"logout","userid":"","password":""}
+User: 
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 58466
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/home.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:56:26
+
+ resolution:  x 
+ time spent on site: 2.329 seconds
+
+Request Method: POST
+Request Params:{"width":"1536","time":"4.066","height":"864","auth":"login","userid":"jim@gotmail.com","password":"J1miny125!","sub":"Login"}
+User: jim@gotmail.com
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 58466
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/index.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:56:30
+
+ resolution: 1536 x 864
+ time spent on site: 4.066 seconds
+
+Request Method: POST
+Request Params:{"width":"","time":"35.232","height":"","auth":"logout","userid":"","password":""}
+User: 
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 58467
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/home.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:57:06
+
+ resolution:  x 
+ time spent on site: 35.232 seconds
+
+Request Method: POST
+Request Params:{"width":"1536","time":"35.41","height":"864","auth":"login","userid":"jim@gotmail.com","password":"J1miny125!","sub":"Login"}
+User: jim@gotmail.com
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 58485
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/index.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 14:57:41
+
+ resolution: 1536 x 864
+ time spent on site: 35.41 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"44.888","height":"1080","auth":"reg","userid":"admin@admin.com","password":"Testacc1234.","sub":"Register"}
+User: admin@admin.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 62148
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:00:57
+
+ resolution: 1920 x 1080
+ time spent on site: 44.888 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"19.744","height":"1080","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Login"}
+User: admin@admin.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 62197
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/index.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:01:26
+
+ resolution: 1920 x 1080
+ time spent on site: 19.744 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"Wow cool","caption":"Need help it won't let me go","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 63525
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:05:56
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"hi","caption":"the face of a psychopath","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 59088
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:07:56
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"stuv hurvee","caption":"gud cake","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 63618
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:08:25
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"Too fust","caption":"sinic the hog","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 57358
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:11:49
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"dont","caption":"look","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 57421
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:13:07
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"dont","caption":"look","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 57431
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:13:21
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"a","caption":"ARRY","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 57640
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:19:09
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"ahoy","caption":"yar","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 64686
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:22:01
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"Image.","caption":"Image.","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 59015
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/ratecake.php
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:23:14
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"aita","caption":"aita","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.206.160
+Client Name: SF03LA25TL.shipley.ac.uk
+ Client Port: 59611
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/Bean-and-Brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:30:11
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"4\/5 wouldn't try again too much salt","caption":"Nostalgia","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 65033
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:32:45
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"Hello","caption":"Daniel V2","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 65174
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:39:47
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"<br>\r\n<script>\r\nwindow.location.replace(\"https:\/\/exa.net.uk\/about-us\/our-team\/\");\r\n<\/script>","caption":"<br>\r\n<script>\r\nwindow.location.replace(\"https:\/\/exa.net.uk\/about-us\/our-team\/\");\r\n<\/script>","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 65269
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:44:05
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"width":"1920","time":"31.441","height":"1080","auth":"login","userid":"admin@admin.com","password":"Testacc1234.","sub":"Login"}
+User: admin@admin.com
+Cient IP: ::1
+Client Name: SF03LA18TL.shipley.ac.uk
+ Client Port: 60321
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://localhost/Bean-and-Brew/
+ Server Name: localhost
+ Server IP: ::1
+ Server Port: 80
+ Server Script Name: /Bean-and-Brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:49:50
+
+ resolution: 1920 x 1080
+ time spent on site: 31.441 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"Hello","caption":"Daniel V2\r\n<script>\r\nwindow.location.replace(\"https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ\")\r\n<\/script>","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 65473
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 15:53:38
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
+Request Method: POST
+Request Params:{"auth":"upload","review":"<script src=\"10.230.29.229\/temp1\/test.js\"><\/script>\r\n <canvas id=\"canvas\" width=\"500\" height=\"500\" style=\"background-color: black\"><\/canvas> \r\n","caption":"a","width":" 0","time":" 0","height":" 0","userid":"","password":""}
+User: 
+Cient IP: 10.201.205.47
+Client Name: SF03LA15TL.shipley.ac.uk
+ Client Port: 49786
+ Client Platform: Windows
+ Client Accept Language: en-GB,en-US;q=0.9,en;q=0.8
+ Client Script URL: http://10.201.209.94/bean-and-brew/ratecake.php
+ Server Name: 10.201.209.94
+ Server IP: 10.201.209.94
+ Server Port: 80
+ Server Script Name: /bean-and-brew/login.php
+ Server Software: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4Current Date: 14-11-2023 16:16:03
+
+ resolution:  0 x  0
+ time spent on site:  0 seconds
+
